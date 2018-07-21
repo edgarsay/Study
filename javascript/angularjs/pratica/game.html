@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="game">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        img {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <script src="angular.js"></script>
+    <script>
+        angular.module("game", []);
+        angular.module("game").controller("gameCtrl", function ($scope) {
+            $scope.pokemons = [
+                { nome: "Sharmander", hp: 100 },
+                { nome: "Pikachu", hp: 100 }
+            ];
+            $scope.attack = function () {
+                var attack = Math.floor((Math.random() * 10) + 1);
+                $scope.pokemons[0].hp -= attack;
+                var cattack = Math.floor((Math.random() * 10) + 1);
+                $scope.pokemons[1].hp -= cattack;
+            }
+            $scope.thunder = function () {
+                var attack = Math.floor((Math.random() * 30) + 1);
+                $scope.pokemons[0].hp -= attack;
+                var stun = Math.floor((Math.random() * 100) + 1);
+                if (stun < 50) {
+                    var cattack = Math.floor((Math.random() * 10) + 1);
+                    $scope.pokemons[1].hp -= cattack;
+                } else {
+                    alert("SHARMANDER STUNED!");
+                }
+
+            }
+        });
+    </script>
+    <title>Game</title>
+</head>
+
+<body ng-controller="gameCtrl">
+    <img src="HJ6I9BOf_400x400.jpg" alt="sharmander">
+    <br>
+    <h1>{{"HD: "+pokemons[0].hp}}</h1>
+    <br>
+    <img src="2437349-pikachu.png" alt="pikachu">
+    <br>
+    <h1>{{"HD: "+pokemons[1].hp}}</h1>
+    <button ng-click="attack()">ATTACK</button>
+    <button ng-click="thunder()">THUNDER</button>
+</body>
+</body>
+
+</html>

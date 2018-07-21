@@ -1,0 +1,27 @@
+JavaScript é interpretada
+
+baseada em protótipos
+
+tipagem frace e dinamica
+
+possui funções de primeira classe
+
+não apresenta suporte a programação paralela
+
+Object:
+
+coleção dinamica de chaves
+
+adicionar e retirar dados a qualquer momento
+
+
+JS não tem
+
+Classe Construtor Método e Módulo
+
+as funções do js são de primeira classa
+
+A DECLARAÇÃO DE FUNÇÕES É CARREGADA ANTES DA INTERPRETAÇÃO
+OU SEJA PODE-SE INVOCAR UMA FUNÇÃO ANTES DE DE CLARALA
+
+=== // compara o tipo tambem

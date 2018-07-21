@@ -1,0 +1,11 @@
+continue // é um break que so insera um ciclo
+
+while x not in 'condição'// enquanto x não estiver dentro da condição
+
+ord(a) = 97
+
+a,b = b,a // troca os valores das variaveis
+
+de func(parametro = 1) // 1 é o valor parão caso não passe nada como para metro
+
+função e metodos que retornam algum são mais fasceis de testar

@@ -1,0 +1,207 @@
+Sun -> Gree time
+
+Gree time -> gree talk
+
+Gree talk -> oak (oak -> carvalho)
+
+( Tim Berners-Lee )//pesquizar
+
+oak -> Java (pocalsa do cafe cultivado nas ilhas de Java)
+
+// java coffe -> "cafe forte"
+
+javascript != java
+
+MARTE <- Java -> Terra
+
+codigo fonte -> [compilador] -> codigo objeto
+
+codigo objeto -> [Linker] -> executavel
+
+codigo fonte -> [Enterpretador] -> executavel
+
+JAVA
+
+CODIGO -> JAVAC -> BYTECODI
+
+bytecodi -> JVM(WIN) -> EXE(WIN)
+
+bytecode -> JVM(linux) - > exe(linux)
+
+WORA = WRITE ONCE RUN ANYWHERE
+
+JRE = JAVA RUN ENVIRONMENT
+
+JDK = JAVA DEVELOPMENT KIT
+
+JRE (JVM E BIBLIOTECAS)
+
+JVM = [LOADER/VERIFICADOR],[INTERPRATADOR,GERENCIADOR],[COMPILADOR JIT]
+
+LOADER = (CAREGAR O BYTECODE PARA MEMORIA DE VIRTUAL MACHIM)
+VERIFICADOR = (VERIFICA SE O CODIGO TA CORRETO)
+INTERPRATADOR = ( CODIGO EM BYTOCODE E CONVERTE EM EXE ) 
+GERENCIADOR = ( GERENCIA A MEMORIA VIRTUAL DA JVM )
+COMPILADOR JIT = (TADUÇÃO EM TEMPO REAL, PERSEBI QUAIS PARTES DO CODIGO SÃO MAIS IMPORTANTE)
+
+JDK = JRE, JAVALANG(LIGUAGEM JAVA),JAVATOOLS
+
+JAVATOOLS = JAVAC, DEBUGGER, APIS
+
+IDE = AMBIENTE DE DESENVOLVIMENTO (NETBEANS)
+
+COMANDO PARA EXECUTAR = JAVA
+
+COMPILADO NO = JAVAC
+
+EXTENÇÃO DO ARQUIVO = .JAVA
+
+UM ARQUIVO PRODUSIDO PELO COMPILADO É = BYTECODE E TERMINA .CLASS
+
+UM CODIGO COMPILADO CONSOME MAIS MEMORIA POREM RODA EM MENOS TEMPO
+
+UM CODIGO INTERPRETADO CONSOME MENOS MEMORIA E RODA EM MENOS TEMPO
+
+ALGORITMO A <- B == A = B
+
+PROCESSO DE COMPILAÇÃO ABISTRATA :
+
+CODIGO FONTE -> COMPILADOR -> CODIGO REALOCAVEL(ASSEMBLY) -> MONTADOR(ASSEMBLY) -> CODIGO OBJETO
+
+PROCESSO DE INTERPRETAÇÃO :
+
+CODIGO FONTE -> CODIGO OBJETO
+
+
+VERÇÕES DE JDK
+
+SE = JANELAS NORMAL
+
+EE= EMPRESARIA
+
+ME= MOBILE
+
+imports{
+
+java.applet // para criar aplicativos
+
+java.util // utilitarios
+
+java.math // matematica
+
+java.net
+
+javax.sound // som
+
+javax.sound // media
+
+javax.swing (antigamente AWT)// interface grafica para janela
+
+javaFX.fxml 
+
+extends // herança
+
+private // encapisulamento
+
+implements // interfaces
+vel do 
+(int) // typecast
+
+new // novo objeto
+
+java.util.stack // biblioteca para pilha
+
+float sal = 1825.54f; // sem o f ele da erro
+
+System.out.printf("%.2f",float);  // igual o C
+
+System.out.format("%.2f",float);  // igual o C
+
+java.util.scanner; // input
+
+como receber um intput{
+
+Scanner teclado = new Scanner(System.in);// criando um novo objeto do tipo Scanner recebendo a entrada do sistema(System.in)
+String tecladOut = teclado.nextLine();// criando uma nova variavel/objeto para armazenar a proxima linha
+
+nestline = string
+
+nextint = int
+
+...
+}
+
+//fortimente tipada
+
+Stinge s = Interger.toString(idade); // convertendo um inteiro par a string
+
+int i = integer.parseInt(valor); // passa o valor para inteiro
+
+txtN1.getText(); // pegar o que ta na "caixa de text" em String
+
+txtN1.setText(); // coloca na caixa de texte
+
+Java.Math // Java.Math.cbrt //raiz cubica
+
+Math.abs // absoluto
+
+Math.foor // sql
+
+Math.ceil // sql
+
+Math.trunc  //sql
+
+Math.round // ||
+
+Math.random // ||	
+
+Alan kay criador o POO
+
+objeto{
+atributo
+metodo
+estado
+}
+
+UML Unified Modeling Language
+
++ Publico(qualquer um pode usar)(todas as class)
+
+- Privado(somente eu posso usar)(so a class)
+
+# Protegido(a familia pode usar)(so as class externd)
+
+.equals() // para verificar se o valor o objetos
+
+&& // c
+
+|| // c
+
+^ // XOU
+
+! // c
+
+.setFont(new Font()) // para mudar a fonte de uma laybl
+
+if // c
+
+.isEmpty() // está vazio?
+
+.charAt(?) // character da posição ?
+
+while // 
+
+javax.swing.JOptionPane // criar janelas pre construidas
+
+arry // int i[] = new int[4];
+
+formas de istanciar o ARRY// c nnomal , i[] = {1,2,3,4};
+
+for(int valor:num){} // for do python
+
+DefaultListModel vetor para lista de itens
+
+
+
+
+

@@ -1,0 +1,107 @@
+<wbr/> // word break
+
+<br> // break row
+
+&nbsp; // no break space
+
+&shy; // soft hyphen
+
+<b> // negrito
+
+<i> // italico
+
+<em> // enfase
+
+<del> // texto riscado
+
+<span> // pode ser usada para formartar pequenos termos de texto
+
+<sup> // super escrever ¹²³
+
+<sub> // sub escrever (o contrario)
+
+<code> // tag para mostrar codigo
+
+<pre> // pre formatado (do jeito) que você escreveu
+
+<img/> //imagem
+
+<figure> // tag para figura
+
+<figcaption> //tag para legenda
+
+Ordered lists - ol (1. 2. 3. ...)
+
+Unordered list - ul (o o o o ...)
+
+List items - li (itens da list)
+
+hret = "link";
+
+target = "_bland";// abri o link em outra aba
+
+nav# menu x:hover //hover//mouse porxima
+
+transistion //transição
+
+<table> // tabela
+
+<caption> // titulo da tabela
+
+<tr> // linhas da tabela
+
+<td> // celulas da tabela
+
+border_space // espacoentre as tabelas
+
+rowspan +"2" = uma celula upa a linha de baixo
+
+colspan = "?" = || coluna
+
+RESUMO DE TAG do body
+
+<header>
+
+<section>
+
+<aside>
+
+<footer>
+
+javascript
+
+function nome(){ //função
+
+document.getElementById("luz").src = "/~~/~~"; // muda o src o elemento com id "luz" para "/~~/~~"
+
+onclick = "nome da function"
+
+mapas de imagens:
+
+usemap = "#meumapa";
+
+<map></map>
+
+<form>	//formulario
+
+<fieldset> // conjunto de campos dentro de form
+
+<input> // input,usuario,senha, etc;
+
+placeholder="Nome Completo" //dica para preencher o input
+
+label // serve para "link" uma elemento a outro atravez do id
+
+<form method = "?">
+
+get // rapido e pouco seguro
+
+post //lento e menos seguro
+
+ 
+
+
+
+
+
+

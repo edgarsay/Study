@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>MEU SITE</title>
+        <link rel="stylesheet" href="_css/estilo.css"> 
+        <link rel="stylesheet" href="_css/form.css">
+    </head>
+    <script src = "_javascript/funcoes.js"></script>
+    <body>
+        <div id="interface">
+            <header id="cabecalho">
+                <hgroup>
+                    <h1>
+                        Google Glass
+                    </h1>
+                    <h2>
+                        A revolução do Google está chegando
+                    </h2>
+                </hgroup>
+                <img id = "icone" src="_imagens/contato.png">
+                
+                <nav id = "menu">
+                    <h1>Menu Principal</h1>
+                    <ul>
+                        <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="index.html">Home</a></li> 
+                        <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="specs.html">Especificações</a></li>
+                        <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="fotos.html">Fotos</a></li>   
+                        <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="multimidia.html">Multimídia</a> </li>
+                        <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                    </ul>
+                    
+                    
+                </nav>
+            </header>
+            <section id = "corpo-full">
+                <article id = "fotos">
+                    <header id="cabecalho-artigo">
+                        <hgroup>
+                            <h3>Fale Conosco > Contato</h3>
+                            <h1>Formulário de Contato</h1>
+                            <h2>Gustavo Guanabara</h2>
+                            <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                        </hgroup>
+                    </header>
+                </article>
+                <form method="post" id="icontato" action="mailton:contato@gmail.com" oninput="calc_total();">
+                    <fieldset id="usuario">
+                            <legend>Identificação do Usuário</legend> 
+                            <p><label for="inome">Nome: </label> <input type="text" name="nome" id="inome" placeholder="Nome Completo" size="40"> </p>
+                            <p><label for="isenha">Senha: </label> <input type= "password" name="senha" placeholder="8 digitos" size="8" id="isenha"> </p> 
+                            <p><label for="iemail">E-mail: </label> <input type= "email" name="email" id="iemail" placeholder="@gmail.com" size="30"> </p> 
+                            <fieldset id="sexo" ><legend>Sexo:</legend>
+                                <p>
+                                    <input type= "radio" name="sexo" id="ioutro" checked > <label for="ioutro">Outro</label> <br>
+                                    <input type= "radio" name="sexo" id="imasc"> <label for="imasc">Masculino</label> <br>
+                                    <input type="radio" name="sexo" id="ifemi"> <label for="ifemi">Feminino</label> 
+                                </p>
+                            </fieldset> 
+                            <p>Data de Nascimento: <input type="date" name="data" id="idata" > </p> 
+                    </fieldset>
+                    <fieldset id="endereco">
+                            <legend>Endereço do Usuário</legend> 
+                            
+                            <p> <label for="ilogra"> Logradouro: </label> <input type="text" size="10" maxlength="80" placeholder="Rua,av,etc..." name="logra" id="ilogra"> </p>
+
+                            <p> <label for="inume">Número:</label> <input type="number" min="0" max="999999" name="nume" id="inume"> </p>
+
+                            <p> <label for="iestado">Estado:</label> <select id="iestado">
+                                <optgroup label="estados">
+                                    <option value="">Rio de janeiro</option>
+                                    <option value="">Acri</option>
+                                </optgroup>
+                                <optgroup label="outros">
+                                        <option value="">Outros estados ...</option> 
+                                </optgroup>
+                            </select> 
+                            </p>
+
+                            <p> <label for="icidade">Cidade</label> <input type="text" size="10" maxlength="80" placeholder="Aracati" name="cidade" id="icidade" list="cidades"> </p>
+                            <datalist id="cidades">
+                                <option value="">
+                                    Rio de Janeiro
+                                </option>
+                                <option value="">
+                                    Nova Iguasul
+                                </option>
+                            </datalist>
+                    </fieldset>
+                    <fieldset id ="mensagem" >
+                            <legend>Mensagem do Usuário</legend>
+                            <p><label for="igrau">Grau de Urgência:</label> <input name="urgencia" id="igrau" type="range" min="1" max="100" step="5"> </p>
+                            <p> <label for="imensagem">Mensagem:</label> <textarea name="mensagem" id="imensagem" cols="30" rows="5"></textarea></p>
+                    </fieldset>
+                    <fieldset id="pedido" >
+                            <legend>Quero um Google Glass</legend> 
+
+                            <p> <input type="checkbox" name="check" id"ic" checked> <label for="ic">Gostaria de adquirir um Google Glass quando disponível</label> </p>
+                            <p><label for="icor">Cor:</label> <input type="color" value= "#ffffff" id="icor" > </p> 
+
+                            <p><label for="iquantidade">Quantidade: </label> <input type="number" min="0" max="5" value="0" id="iquantidade" > 
+
+                            <p><label for="ipreco">Preço Total: R$ </label> <input type="number" min="0" value="0" id="ipreco" readonly ></p>
+                    </fieldset>
+                    <input type="submit" src="_imagens/botao-enviar.png">
+                </form>
+            </section>
+            <footer id="rodape">
+                <h4> Copyright 2013 - by Gustavo Guanabara</h4>
+                
+                <h4><a href="https://media4.giphy.com/avatars/100soft/WahNEDdlGjRZ.gif" target="_bank">Facebook</a> | <a href="https://media.tenor.com/images/0e447bcb092088c8bd09584b2c2dd833/tenor.gif" target="_blank">Twitter</a> </h4>
+            </footer>
+        </div>
+    </body>
+</html>

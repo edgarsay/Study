@@ -1,0 +1,5 @@
+1 armazena todos os dados numa linked list
+
+2 e criar um indice para acelerar o acesso
+
+3 provavelmente sera 10000000 e registro
